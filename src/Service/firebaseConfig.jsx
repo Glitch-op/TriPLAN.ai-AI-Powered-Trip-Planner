@@ -10,9 +10,9 @@ import { getFirestore } from "firebase/firestore";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "FIREBASE_API_KEY",
-  authDomain: "FIREBASE_PROJECT_ID.firebaseapp.com",
-  projectId: "FIREBASE_PROJECT_ID",
-  storageBucket: "FIREBASE_PROJECT_ID.firebasestorage.app",
+  authDomain: "ai-trip-planner-9ccbc.firebaseapp.com",
+  projectId: "ai-trip-planner-9ccbc",
+  storageBucket: "ai-trip-planner-9ccbc.firebasestorage.app",
   messagingSenderId: "FIREBASE_SENDER_ID",
   appId: "FIREBASE_API_ID",
   measurementId: "FIREBASE_MEASUREMENT_ID"
