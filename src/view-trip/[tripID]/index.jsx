@@ -2,7 +2,7 @@ import { doc, getDoc } from 'firebase/firestore';
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import { toast } from 'sonner';
-import { db } from '@/Service/firebaseconfig';
+import { db } from '@/Service/firebaseConfig';
 import InfoSec from './components/InfoSec';
 import Hotels from './components/Hotels';
 import Itinerary from './components/Itinerary';
