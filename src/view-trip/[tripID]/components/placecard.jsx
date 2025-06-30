@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from '@/components/ui/button'
+import { Button } from '@/components/ui/Button'
 import { FaMapLocationDot } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 
