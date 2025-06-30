@@ -23,7 +23,7 @@ const Navbar = () => {
   const [openDialog, setOpenDialog] = useState(false);
 
   useEffect(() => {
-    console.log(user);
+    // console.log(user);
 
   })
 

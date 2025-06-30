@@ -25,7 +25,7 @@ const MyTrips = () => {
         const q = query(collection(db, "Trips"), where('userEmail', '==', user?.email))
         const querySnapshot = await getDocs(q);
         querySnapshot.forEach((doc) => {
-            console.log(doc.id, "=>", doc.data());
+            // console.log(doc.id, "=>", doc.data());
             setUserTrips(prevVal => [...prevVal, doc.data()])
 
         })

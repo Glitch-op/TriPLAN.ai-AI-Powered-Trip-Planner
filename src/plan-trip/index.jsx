@@ -37,7 +37,7 @@ const Plantrip = () => {
     });
   }
   useEffect(() => {
-    console.log(formData);
+    // console.log(formData);
   }, [formData]);
 
   const login = useGoogleLogin({
@@ -74,7 +74,7 @@ const Plantrip = () => {
       .replace("{Duration}", formData?.duration);
 
     const result = await main(Final_AI_Prompt);
-    console.log(result);
+    // console.log(result);
     setLoading(false);
     SaveAITrip(JSON.parse(result));
 
